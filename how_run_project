@@ -1,0 +1,36 @@
+1.  This is simple flask api which take user input = {
+
+    "Brand": 1,
+    "Model_Info":"name0 name234 64gb space grey",
+    "Additional_Description":"1yesr old mobile number 999two905two99 bill charger",
+    "Locality":878,
+    "City":8,
+    "State":2
+    }
+
+and return price base on model train
+
+out_put = {
+    "data": {
+        "Predicted Price": 2890.0522674724584
+    },
+    "msg": "Price Predicted Successfully"
+}
+===========How run project ==========
+1. First we need to new project and create virtual env
+2. Clone Git repo
+3. After Clone install dependencies using (pip install -r requirements.txt)
+4. After install dependencies Go to project folder (model_apis)
+5 python3 app.py (just enter this command)
+
+
+
+==========Api======
+1. /api/v1.0/ ===> status api
+2. /api/v1.0/predict_price ===> Predict price base on model (POST Type)
+
+======if you need any help then Please email me========
+
+
+
+
